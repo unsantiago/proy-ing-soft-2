@@ -15,8 +15,9 @@ import java.math.BigDecimal;
 @Table(name = "ANFITRIONES")
 public class Anfitrion implements Serializable {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID_ANFITRION")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "anfitrion_seq")
+    @SequenceGenerator(name = "anfitrion_seq", sequenceName = "anfitrion_sequence", allocationSize = 1)
+    @Column(name = "ID_ANFITRION", nullable = false, unique = true)
     private Long idAnfitrion;
 
     @Column(name = "NOMBRE", nullable = false)

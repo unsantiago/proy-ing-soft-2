@@ -18,10 +18,20 @@ public class Inmueble implements Serializable {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "inmueble_seq")
     @SequenceGenerator(name = "inmueble_seq", sequenceName = "inmueble_sequence", allocationSize = 1)
     @Column(name= "ID_INMUEBLE", nullable = false, unique = true)
-    private long idInmueble;
+    private Long idInmueble;
 
-    @Column(name= "IMAGENES")
+    @Column(name= "NOMBRE", nullable = false)
+    private String nombre;
+
+    @Column(name= "TIPO", nullable = false)
+    private String tipo;
+
+    @Column(name= "DESCRIPCION", nullable = false)
+    private String descripcion;
+
     @ElementCollection
+    @CollectionTable(name = "IMAGENES_INMUEBLE", joinColumns = @JoinColumn(name = "INMUEBLE_ID"))
+    @Column(name = "IMAGEN_URL")
     private List<String> imagenes;
 
     @Column(name= "DIRECCION", nullable = false)

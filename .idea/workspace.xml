@@ -5,15 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="482a997c-c31d-4bd5-9f87-fd8be884fafe" name="Changes" comment="Inicialización de repositorio backend  -  Leni">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/data/CargaDatosIniciales.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Anfitrion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Ciudad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Inmueble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/AnfitrionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/CiudadRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/InmuebleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/controller/AnfitrionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/controller/CiudadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/controller/InmuebleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img4.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img5.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img6.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/uploads/inmueble1/img7.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/MikazaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/MikazaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/controller/ControllerPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/data/CargaDatosIniciales.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/data/CargaDatosIniciales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/exception/ExceptionPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Anfitrion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Anfitrion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Ciudad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Ciudad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Inmueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/Inmueble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/model/ModelPrueba.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/AnfitrionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/AnfitrionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/CiudadRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/CiudadRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/InmuebleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/InmuebleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/ucentral/edu/co/mikaza/repository/RepositoryPrueba.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +38,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,14 +73,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/HU001&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/HU001",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -129,6 +146,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Eliminación frontend" />
     <MESSAGE value="Inicialización de repositorio backend  -  Leni" />
     <option name="LAST_COMMIT_MESSAGE" value="Inicialización de repositorio backend  -  Leni" />
