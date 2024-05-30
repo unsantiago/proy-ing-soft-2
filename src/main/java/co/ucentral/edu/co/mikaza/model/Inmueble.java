@@ -26,13 +26,11 @@ public class Inmueble implements Serializable {
     @Column(name= "TIPO", nullable = false)
     private String tipo;
 
-    @Column(name= "DESCRIPCION", nullable = false)
+    @Column(name= "DESCRIPCION", nullable = false, length = 2000)
     private String descripcion;
 
-    @ElementCollection
-    @CollectionTable(name = "IMAGENES_INMUEBLE", joinColumns = @JoinColumn(name = "INMUEBLE_ID"))
     @Column(name = "IMAGEN_URL")
-    private List<String> imagenes;
+    private String imagen;
 
     @Column(name= "DIRECCION", nullable = false)
     private String direccion;
@@ -49,8 +47,8 @@ public class Inmueble implements Serializable {
     @Column(name= "SERV_ADIC", nullable = false)
     private List<String> serviciosAdicionales;
 
-    @Column(name= "ID_CIUDAD", nullable = false)
-    private long idCiudad;
+    @Column(name= "CIUDAD", nullable = false)
+    private String ciudad;
 
     @Column(name= "ID_ANFITRION", nullable = false)
     private long idAnfitrion;
